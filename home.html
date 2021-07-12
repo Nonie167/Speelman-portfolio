@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="body.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<section class="home-container" id="home">
+
+            <div class="text-container">
+       
+       <p>Nontlantla's Portfolio</p>
+       
+       <img src="n.jpeg" class="me" alt="me">
+       
+       <button class="download-cv">Download CV</button>
+       </div>
+       </section>
+        
+
+
+
+<section class="about-container" id="about">
+            <img src="about me.jpeg">
+            <div class="about-text">
+            <h2>About me</h2>
+            <p>Hi I am, </p>
+       <p>a Front Web Developer.</p>
+       
+            <li>My full name is Nontlantla Speelman. I am a young, independent and hard-working lady residing in Khayelitsha, Cape Town.</li>
+            <li>I have a dynamic personality and discipline.</li>
+            <li>I have a good interpersonal and communication skills.</li>
+            <li>I also do enjoy dealing with people.</li>
+            <li>My hobbies/interests include: singing, sports, reading and exploring.</li> 
+            <li>I love working with computers and trying out new things.</li>
+            
+           
+            
+
+                <h2>Education</h2>
+                <h3>I finished my matric at 2018. After finishing my matric I took a gap year then did a volunteering at an educare centre at my community.
+                On August 2020 I started attending a bootcamp called Codetelligent where they thought me how to code introduced me to the technology industry.
+                Everything went well with me and the coding till I got an Internship at Younglings Absa.
+                The internship gave me a lot of experience in the work enviroment and gave me an experience in the coding enviroment.
+                It gave me a chance to explore a lot and since I enjoy working with computer everything was good.</h3>
+                </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="projects" id="projects">
+
+            <h2>My Projects</h2>
+
+        <p>These are the projects I worked on and the websites I build my self using my coding skills.</p>
+
+    
+    <div class="column">
+        <img src="project1.jpeg" class="float-left" width="30%" height="20%"> <a href="https://focused-mayer-269cc5.netlify.app/index.html"><li>Queen Nonie Beauty</li></a>
+        
+
+        <img src="project2.jpeg" class="float-right" width="30%" height="20%"><a href="https://ongies-catering-projects.netlify.app/"><li>Ongies Catering Projects</li></a>
+    
+</div>
+<div class="column">
+        <img src="project3.jpeg" width="30%" height="20%"><a href="https://cuma-ecd.netlify.app/"><li>Cuma EDC</li></a>
+        
+
+        <img src="project4.jpeg" width="30%" height="20%"><a href="https://speelman-charity-project.netlify.app/"><li>Charity Website</li></a>
+        
+        </div>
+        </div>
+
+        </div>
+        </section>
+
+        <section>
+            <div class="contact" id="contact">
+<h2> Contact Me</h2>
+
+
+<div class="container">         
+
+               
+                 
+    <div class="b">
+      <div class="container">
+              <a href="https://www.facebook.com/nhanha.nanie" class="fa fa-facebook" style="font-size:100px;color:rgba(97,134,235,0.952)"></a>
+              <a href="https://wa.link/avlo72" class="fa fa-whatsapp" style="font-size:100px;color:green"></a>
+              <a href="https://github.com/Nonie167" class="fa fa-github" style="font-size:100px;color:black and white"></a>
+            </div>
+            </div>
+
+<h2><p style="color: black">Feedback Form</p></h2>
+<div class="container">
+<form action="/action_page.php">
+<div class="row">
+<div class="col-25">
+<label for="fname" style="color: rgb(255, 253, 253)">First Name</label>
+</div>
+<div class="col-75">
+<input type="text" id="fname" name="firstname" placeholder="Your name">
+</div>
+    </div>
+<div class="row">
+<div class="col-25">
+<label for="lname" style="color: rgb(253, 249, 249)">Last Name</label>
+</div>
+<div class="col-75">
+<input type="text" id="lname" name="lastname" placeholder="Your last name">
+</div>
+</div>
+
+<div class="row">
+<div class="col-25">
+<label for="subject" style="color: rgb(248, 247, 247)">Subject</label>
+</div>
+<div class="col-75">
+<textarea id="subject" name="subject" placeholder="Write something." style="height:200px"></textarea>
+<div class="g-recaptcha" data-sitekey="6LfZBe4ZAAAAAHV1gRXnpbRTLZzs678QKb4hKeqH"></div>
+</div>
+</div>
+<div class="row">
+<input type="submit" value="Submit">
+</div>
+</form>
+</div>
+</div>
+</div>
+        </section>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
+
+
+
+
+
+
+        <div class="copyrightText">
+            <p>Copyright 2021 <a href="#">Nontlantla Speelman</a>. All Right Reserved</p>
+        </div>
+        
+    </body>
+</html>
